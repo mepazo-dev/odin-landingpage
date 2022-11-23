@@ -12,10 +12,10 @@ info header 36px extra-bold #1F2937
 
 * {
     font-size: 18px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    border: 1px solid blue
+   /* border: 1px solid blue */
 }
 
 .header-container {
@@ -59,6 +59,7 @@ info header 36px extra-bold #1F2937
 }
 
 .hero {
+    margin: 80px 0;
     width: 900px;
     display: flex;
     justify-content: space-between
@@ -80,6 +81,8 @@ info header 36px extra-bold #1F2937
 }
 
 .hero button {
+    color: #e5e7eb;
+    border-radius: 5px;
     background-color: #3882F6;
     padding: 5px 20px 5px 20px;
     margin: 15px 0;
@@ -94,7 +97,7 @@ info header 36px extra-bold #1F2937
     font-size: 16px;
     color:white;
     background-color: gray;
-    width:400px;
+    width:450px;
     height:200px;
     text-align: center;
    display: flex;
@@ -102,3 +105,119 @@ info header 36px extra-bold #1F2937
     align-items: center;
 }
 
+/* info -------- */
+
+.info-container {
+    margin: 20px 0 80px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    width: 900px;
+
+}
+
+.info-headline h2 {
+    margin: 20px 0 40px 0;
+    font-size: 36px;
+    color: #1f2937;
+    text-align: center;
+}
+
+.info-carousel {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.info-illu {
+    
+}
+
+.illu {
+    border: 2px solid #3882F6;
+    border-radius: 5px;
+    margin:auto;
+    width: 150px;
+    height: 150px;
+}
+
+.text {
+    
+    padding:15px 10px 0 10px;
+    text-align: center;
+    color: grey;
+}
+
+.quote-container {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
+
+.quote {
+    margin: 80px 0;
+    width:900px;
+}
+
+.quote span {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.quote p {
+    text-align: right;
+}
+
+/* call to action ------- */
+
+.action-container {
+    margin: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.action {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.action-box {
+    color:#e5e7eb;
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 40px 80px;
+    width: 900px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+}
+
+.action-text {
+    flex:1;
+}
+
+.action-button {
+margin:auto;
+}
+
+/* footer ------- */
+
+.footer-container {
+    
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+
+    padding: 20px 0;
+    color:#e5e7eb;
+}
